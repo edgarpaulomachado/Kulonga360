@@ -18,6 +18,7 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({
+  // Added support for new styles
   children,
 }: Readonly<{
   children: React.ReactNode;
